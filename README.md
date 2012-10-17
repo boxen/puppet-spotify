@@ -1,11 +1,11 @@
-# VLC Puppet Module for Boxen
+# Spotify Puppet Module for Boxen
 
 Requires the `boxen` puppet module.
 
 ## Usage
 
 ```puppet
-include vlc
+include spotify
 ```
 
 ## Developing
