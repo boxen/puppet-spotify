@@ -15,4 +15,10 @@ describe 'spotify' do
       :refreshonly => 'true',
     })
   end
+
+  it do
+    should contain_file('/Applications/Install\ Spotify.app').with({
+      :ensure => 'absent',
+    })
+  end
 end
