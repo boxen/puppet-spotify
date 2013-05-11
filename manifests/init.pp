@@ -15,4 +15,7 @@ class spotify {
     logoutput   => 'on_failure',
     refreshonly => true,
   }
+  -> file { $install_file:
+    ensure => 'absent',
+  }
 }
