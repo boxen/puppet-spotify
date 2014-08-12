@@ -6,7 +6,7 @@
 class spotify {
   $install_file = '/Applications/Install\ Spotify.app'
 
-  package { 'Spotify':
+  package { 'Install Spotify':
     provider => 'compressed_app',
     source   => 'http://download.spotify.com/SpotifyInstaller.zip',
   }
