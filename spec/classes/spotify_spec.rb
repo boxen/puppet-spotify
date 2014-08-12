@@ -2,7 +2,7 @@ require 'spec_helper'
 
 describe 'spotify' do
   it do
-    should contain_package('Spotify').with({
+    should contain_package('Install Spotify').with({
       :provider => 'compressed_app',
       :source   => 'http://download.spotify.com/SpotifyInstaller.zip',
     })
